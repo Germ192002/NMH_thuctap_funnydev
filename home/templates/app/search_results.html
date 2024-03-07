@@ -1,0 +1,18 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block main-content%}
+<h1>Search Results</h1>
+
+<!-- Kết quả tìm kiếm -->
+<div>
+   
+        {% for post in posts %}
+            <div class="result-item">
+                <img src="/upload/{{ post.image }}" alt="{{ post.name }}">
+                <h2>{{ post.name }}</h2>
+                <p>{{ post.description }}</p>
+            </div>
+        {% endfor %}
+</div>
+{% endblock main-content%}

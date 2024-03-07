@@ -1,0 +1,74 @@
+.logo>a>img{
+    width: 200px;
+}
+.sticky-logo>a>img{
+    width: 100px;
+}
+
+.trand-right-single .trand-right-img img{
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.trend-bottom-cap,
+.trand-right-cap
+{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.weekly-caption{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.weekly-caption h4{
+    padding-bottom: 10px;
+}
+
+.weekly-news-active .weekly-single .weekly-img img{
+    width: 370px;
+    height: 430px;
+    object-fit:cover;
+}
+
+.blog_details div{
+    font-family: "Roboto",sans-serif;
+    color: #506172;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.single_sidebar_widget .media img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+.blog_area .container>h2{
+    font-family: "Roboto",sans-serif;
+    color: #506172;
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+/* CSS chỉ áp dụng cho màn hình máy tính */
+@media screen and (min-width: 768px) {
+    .blog_item .blog_item_img img {
+        height: 385px;
+        object-fit: cover;
+    }
+    .single-post .feature-img img{
+        width: 100%;
+        height: 375px;
+        object-fit: cover;
+    }
+}
+
